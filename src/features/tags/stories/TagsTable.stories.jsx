@@ -25,7 +25,7 @@ Default.args = {
   page: 0,
   isLoadingTags: false,
   isErrorTags: false,
-  tagsError: 'An error occured while fetching tags.',
+  tagsError: 'An error occurred while fetching tags.',
 };
 
 export const Loading = args => (
@@ -55,7 +55,7 @@ export const Error = args => (
 );
 Error.args = {
   isErrorTags: true,
-  tagsError: 'An error occured while fetching tags.',
+  tagsError: 'An error occurred while fetching tags.',
 };
 
 export const Empty = args => (
@@ -71,5 +71,5 @@ Empty.args = {
   page: 0,
   isLoadingTags: false,
   isErrorTags: false,
-  tagsError: 'An error occured while fetching tags.',
+  tagsError: 'An error occurred while fetching tags.',
 };
